@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(105, 56, 133);
+}
+
+h1 {
+  color: aliceblue;
+  text-align: center;
+  font-family: "Jockey One", sans-serif;
+  font-size: 50px;
+  margin-top: 30px;
+}
+
+.topnav {
+  background-color: #B298DC;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 60px;
+}
+
+.logo {
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: 10px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: rgb(0, 0, 0);
+  font-size: 1.1rem;
+  font-family: "Jockey One", sans-serif;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: "Jockey One", sans-serif;
+}
+
+.qr-code img {
+    display: block;
+    margin: 70px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    border: 10px solid #dac4ed;
+}
+
+button {
+  background-color: #6F2DBD;
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+  padding: 15px 35px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-family: "Jockey One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border: none;
+  display: block;
+  margin: 50px auto;
+}
+
+button:hover {
+  background-color: #B298DC;
+}
+
+footer {
+  background-color: #A663CC;
+  height: 110px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

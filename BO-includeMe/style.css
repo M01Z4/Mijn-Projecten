@@ -1,0 +1,185 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(245, 244, 247);
+}
+
+p {
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+
+.offer-box p {
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+
+.info p {
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+
+.topnav {
+  background-color: #B298DC;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 60px;
+}
+
+.logo {
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: 10px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: rgb(0, 0, 0);
+  font-size: 1.1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+header {
+  height: 450px;
+  background-image: url("images/header-image.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+}
+
+
+button {
+  background-color: #6F2DBD;
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+  padding: 15px 35px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-family: "Jockey One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border: none;
+}
+
+button:hover {
+  background-color: #B298DC;
+}
+
+
+footer {
+  background-color: #A663CC;
+  height: 110px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+h2 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+  margin-top: 30px;
+  color: rgb(0, 0, 0);
+}
+
+.offer-box {
+  width: 90%;
+  max-width: 1400px;
+  margin: 30px auto;
+  padding: 40px;
+  background: #B8D0EB;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  font-family: "Jockey One", sans-serif;
+}
+
+.info-box-offer {
+  text-align: left;
+}
+
+.offer-box img {
+  width: 400px;
+  float: right;
+  margin-left: 20px;
+  height: auto;
+}
+
+.offer-btn {
+  background: #c9d9eb;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+}
+
+.offer-btn:hover {
+  background: #fff;
+  border: 1.5px solid #9abbe0;
+  color: #7288a0;
+}
+
+nav {
+  font-family: "Jockey One", sans-serif;
+}
+
+.app-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 40px;
+}
+
+.app-showcase {
+  width: 70%;
+  height: auto;
+}
+
+.app-showcase img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border: 5px solid #8d68b7;
+  border-radius: 20px;
+}
+
+.info {
+  width: 50%;
+  text-align: left;
+  font-family: "Jockey One", sans-serif;
+}
+
+.info h2 {
+  margin-bottom: 20px;
+}
+
+.info p {
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
